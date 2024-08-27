@@ -1,0 +1,22 @@
+import React from "react";
+import { useState } from "react";
+import "./Dictionary.css";
+
+export default function Dictionary() {
+  let [keyword, setKeyword] = useState("");
+  function search(event) {
+    event.preventDefault();
+    alert(`Searching for ${keyword}`);
+  }
+
+  function changeKeyword(event) {
+    setKeyword(event.target.value);
+  }
+  return (
+    <div className="dictionary">
+      <form onSubmit={search}>
+        <input type="search" onChange={changeKeyword} />
+      </form>
+    </div>
+  );
+}
