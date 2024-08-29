@@ -9,7 +9,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Gretha Gall</footer>
+        <footer>Coded by Gretha Gall and hosted on Netlify</footer>
       </div>
     </div>
   );
