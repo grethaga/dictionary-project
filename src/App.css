@@ -1,6 +1,9 @@
 .App {
   margin: 0 auto;
+  height: 100%;
+  min-height: 100vh;
   background-color: #e8f4ea;
+  padding: 0;
 }
 
 .App h1 {
