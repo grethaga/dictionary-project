@@ -1,8 +1,63 @@
 .dictionary form {
   text-align: center;
-  margin: 30px 0;
+}
+
+.dictionary h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 0 10px 0;
 }
 
 .examples {
   margin: 0;
+}
+
+.dictionary section {
+  background-color: white;
+  padding: 30px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+}
+
+.dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.results h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.examples {
+  font-size: 14px;
+  opacity: 70%;
+  font-style: italic;
+  color: #70757a;
+}
+.synonyms {
+  margin: 30px 0 0;
+  padding: 0;
+}
+
+.synonyms ul {
+  padding: 0;
+  margin: 0;
+}
+
+.synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 14px;
+  line-height: 1;
 }
